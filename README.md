@@ -16,15 +16,28 @@ Data Description
 We have a dataset which contains information about demographics (gender, age, region code type), Vehicles (Vehicle Age, Damage), Policy (Premium, sourcing channel) etc. related to a person who is interested in vehicle insurance. We have 381109 data points available.
 
 Feature Name	Type	Description
+
 id	(continous)	Unique identifier for the Customer.
+
 Age	(continous)	Age of the Customer.
-Gender	(dichotomous)	Gender of the Custome
+
+Gender	(dichotomous)	Gender of the Customer
+
 Driving_License	(dichotomous)	0 for customer not having DL, 1 for customer having DL.
+
 Region_Code	(nominal)	Unique code for the region of the customer.
+
 Previously_Insured	(dichotomous)	0 for customer not having vehicle insurance, 1 for customer having vehicle insurance.
+
 Vehicle_Age	(nominal)	Age of the vehicle.
+
 Vehicle_Damage	(dichotomous)	Customer got his/her vehicle damaged in the past. 0 : Customer didn't get his/her vehicle damaged in the past.
+
 Annual_Premium	(continous)	The amount customer needs to pay as premium in the year.
+
 Policy_Sales_Channel	(nominal)	Anonymized Code for the channel of outreaching to the customer ie. Different Agents, Over Mail, Over Phone, In Person, etc.
+
 Vintage	(continous)	Number of Days, Customer has been associated with the company.
+
 Response (Dependent Feature)	(dichotomous)	1 for Customer is interested, 0 for Customer is not interested.
+
